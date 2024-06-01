@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasurbek H</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input spellcheck="false" placeholder="Shaxar nomini kiriting" type="text">
+            <button><img src="images/search.png" alt="search"></button>
+        </div>
+        <div class="eror">
+            <p>Joy nomini qayta English tilida va xatolarsiz kiriting!</p>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon" alt="img">
+            <h1 class="temp">22</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="img">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Namlik</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="img">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Shamol tezligi</p>
+                        <a href="https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
